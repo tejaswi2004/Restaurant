@@ -6,8 +6,6 @@ import { Loading } from './LoadingComponent';
 import {baseUrl} from '../Shared/baseUrl';
 import { FadeTransform,Fade,Stagger } from 'react-animation-components';
 
-
-
 function Rendercomment({dish1,postComment,dishId}){
     const commentlist=dish1.map(x =>{
         return(

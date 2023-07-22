@@ -27,7 +27,7 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -50,5 +50,6 @@
   "description": "It is a Restaurant Website built using React. You can view featured Items of Restaurant also you can submit feedback form and add comments about your favourite food item. All comments and Feedback are fetched from JSON server and also new comments are handled accordingly.",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
